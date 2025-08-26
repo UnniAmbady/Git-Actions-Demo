@@ -13,7 +13,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run executable bash script
         #run: bash ./run.sh
-        run: python ./src/aiap21_main.py
+        run: python ./src/main.py
       - name: Assessment 21 Reminder
         run: |
           echo "Reminder to add AISG-AIAP as a collaborator in your repository"
